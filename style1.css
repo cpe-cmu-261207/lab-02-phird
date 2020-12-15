@@ -1,0 +1,150 @@
+body {
+    max-width: 920px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+form {
+    display: flex;
+  }
+
+.Menu {
+    text-align: center; 
+    padding: 10px 10%;
+    text-decoration: none;
+}
+.nav{
+    padding: 0px 20px; 
+    display: inline-block;
+}
+.Header{
+    text-align:center; bottom: 50% ; left: 50% ;
+}
+.Menu{
+    text-align: center; padding: 10px 10%;
+}
+
+.Menu a {
+    text-decoration: none; color: rgb(51, 55, 58); padding: 14px 16px;
+}
+
+.Container img {
+    border-radius: 250px; width: 30%; margin-left:150px; margin-top: -50px; float: left; padding: 15px;
+}
+
+.Footer  small {
+    text-align:center; opacity: 40%;
+    font-weight: bold;
+}
+.GPA {
+    width: 80%;
+    padding-left: 10%;
+}
+
+#addSub {
+    
+}
+
+#new-subject-container{
+    padding: 20px 12px;
+    border: 1px solid whitesmoke;
+    border-radius: 9999px;
+    background-color: rgb(197, 196, 194);
+}
+#new-subject-container div{
+    padding-left: 2%;
+    
+    border-radius: 9999px;
+}
+#new-subject-container input[type=text] {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border-radius: 9999px;
+    
+}
+
+#new-subject-container select, option{
+    width: 100%;
+    height: 50%;
+    outline: none;
+    border-radius: 9999px;
+}
+
+
+
+#new-subject-container button[type="submit"]{
+    background-color: rgb(5, 121, 67);
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    color: white;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 99px;
+}
+
+#new-subject-container button[type="submit"]:disabled {
+    background-color:rgb(119, 117, 117);
+    border: none;
+}
+
+#calculate {
+    background-color: rgb(5, 121, 67);
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    color: white;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 99px;
+}
+
+#grade-A {
+    margin: 16px 0;
+    padding: 0;
+    text-align: center;
+}
+
+#grade-A li {
+    font-size: 20px;
+    display: flex;
+    padding: 8px 12px;
+    border: 1px solid #dfdfdf;
+    border-radius: 9999px;
+    margin-bottom: 10px;
+}
+
+#Grade-A span {
+    flex: 1px;
+}
+
+#grade-A button{
+        color: white;
+        font-size: 16px;
+        width: 24px;
+        height: 24px;
+        background-color: #10B981;
+        border-radius: 9999px;
+        border: none;
+        outline: none;
+        flex: none;
+}
+
+#grade-area3 button{
+    color: white;
+    font-size: 16px;
+    width: 24px;
+    height: 24px;
+    background-color: #10B981;
+    border-radius: 9999px;
+    border: none;
+    outline: none;
+    flex: none;
+}
+
+
+
+
+
